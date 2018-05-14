@@ -81,6 +81,20 @@ video{
 	font-family: "Akzidenz-Grotesk Std Regular", sans-serif;
 	font-size: 1.5vw;
 	margin-top: 0;
+	padding-bottom: 1vw;
+}
+.description1{
+	padding-right: 1vw;
+	position: relative;
+	display: inline-block;
+	left:32%;
+	text-overflow: hidden;
+	width:65%;
+	font-family: "Akzidenz-Grotesk Std Regular", sans-serif;
+	font-size: 1.5vw;
+	margin-top: 0;
+	padding-top: 1.5vw;
+	padding-bottom: 1vw;
 }
 
 h2{
@@ -89,6 +103,7 @@ h2{
 	position:relative;
 	margin-bottom: 0;
 	font-family: "Akzidenz-Grotesk Std Regular", sans-serif;
+	padding-bottom:0.5vw;
 }
 
 span{
