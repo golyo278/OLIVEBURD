@@ -52,6 +52,12 @@ img{
 	padding-bottom: 1vw;
 }
 
+.ceros{
+	display: block;
+	position: relative;
+	left:32%;
+}
+
 video{
 	padding-right: 1vw;
 	display: block;
