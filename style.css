@@ -106,7 +106,7 @@ video{
 	font-family: "Akzidenz-Grotesk Std Regular", sans-serif;
 	font-size: 1.5vw;
 	margin-top: 0;
-	padding-bottom: 1vw;
+	padding-bottom: 6vw;
 }
 .description1{
 	padding-right: 1vw;
@@ -130,6 +130,7 @@ h2{
 	font-family: "Akzidenz-Grotesk Std Regular", sans-serif;
 	padding-bottom:0.5vw;
 	text-decoration: none;
+	font-size: 1.5vw;
 }
 
 
@@ -145,3 +146,6 @@ span{
 span:hover{
 	color:black;
 }
+
+
+
