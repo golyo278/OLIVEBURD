@@ -284,7 +284,6 @@ background-color: black;
   width:100%;
   height:100%;
   z-index: 1;
-  vertical-align: middle;
 }
 
 /* Links inside the dropdown */
@@ -298,6 +297,9 @@ background-color: black;
   font-family: "Akzidenz-Grotesk Std Regular", sans-serif;
   font-size: 5.5vw;
   display:block;
+    top: 50%;
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
 }
 
 /* Change color of dropdown links on hover */
