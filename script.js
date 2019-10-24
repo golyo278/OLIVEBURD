@@ -34,9 +34,16 @@ if (hasTouch()) { // remove all :hover stylesheets
 
 $(".dropdown").click(function() {
 $(".black").toggle();
-
-
 });
+
+ if($('.black').is(':visible'))
+ {
+    $('body').addClass("fixedPosition");
+ }
+ else
+ {
+    $('body').removeClass("fixedPosition");
+ }
 
 
 // $(".dropdown").click(function() {
