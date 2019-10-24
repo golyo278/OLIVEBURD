@@ -355,6 +355,7 @@ span:hover{
 		position:relative;
 	z-index: -10;
 	top: 13vw;
+	padding-bottom: 3vw;
 }
 
 .fixedPosition{
