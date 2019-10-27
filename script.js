@@ -1,5 +1,8 @@
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
+document.cookie = 'same-site-cookie=foo; SameSite=Lax';
+document.cookie = 'cross-site-cookie=bar; SameSite=None; Secure';
+
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
